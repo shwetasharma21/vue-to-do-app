@@ -75,11 +75,10 @@ export default {
 .content {
   display: flex;
   flex: 1 1 auto;
-  background-color: chartreuse;
   overflow: hidden;
 }
 .content-input {
-  background-color: purple;
+  background-color: #393e46;
   width: 25rem;
   display: flex;
   flex-direction: column;
@@ -109,8 +108,9 @@ export default {
   margin-right: auto;
 }
 .list-heading {
-  background: rgb(218, 56, 56);
+  background: #393e46;
   margin: 0;
+  color: white;
 }
 .list-item {
   padding: 0.5rem;
